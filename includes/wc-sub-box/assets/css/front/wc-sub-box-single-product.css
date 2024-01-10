@@ -1,0 +1,69 @@
+.wc-sub-box-products-widget-container {
+    border: 4px double #ccc;
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.wc-sub-box-products-widget-container .wc-sub-box-product-row {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+.wc-sub-box-products-widget-container .wc-sub-box-product-row .product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.wc-sub-box-products-widget-container .wc-sub-box-product-row .product .product-info {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-padding-end: 30px;
+    padding-inline-end: 30px;
+}
+.wc-sub-box-products-widget-container .wc-sub-box-product-row .product .price {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    -webkit-padding-start: 22px;
+    padding-inline-start: 22px;
+}
+.wc-sub-box-products-widget-container .wc-sub-box-product-row .product .wc-subscription-box-qty {
+    margin: 0 !important;
+    border: 1px solid #999;
+    padding: 10px;
+    font-size: 1rem;
+}
+@media screen and (max-width: 575px) {
+    .wc-sub-box-products-widget-container .wc-sub-box-product-row .product {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .wc-sub-box-products-widget-container .wc-sub-box-product-row .product .product-info {
+        padding: 0 0 15px 0;
+    }
+    .wc-sub-box-products-widget-container .wc-sub-box-product-row .product .wc-subscription-box-qty {
+        -webkit-margin-start: 22px !important;
+        margin-inline-start: 22px !important;
+    }
+}
+.wc-sub-box-products-widget-container .product-totals p {
+    margin-bottom: 0;
+    text-align: end;
+}
+.wc-sub-box-products-widget-container .product-totals .products-totals-value {
+    font-weight: bold;
+} /*# sourceMappingURL=wc-sub-box-single-product.min.css.map */
